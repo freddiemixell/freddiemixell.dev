@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9063bd59f0b9aa2f8ef0545795c049c6",
+    "content-hash": "b9115d6ea06e19c00179c138adb5c459",
     "packages": [
         {
             "name": "composer/installers",
@@ -542,6 +542,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/two-factor-authentication/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-migrate-db",
+            "version": "1.0.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-migrate-db/",
+                "reference": "tags/1.0.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.1.0.11.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-migrate-db/"
         }
     ],
     "packages-dev": [
