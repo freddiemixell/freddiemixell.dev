@@ -11,7 +11,8 @@
     "require": {
         "wecodemore/wpstarter": "~2.0",
         "wpackagist-plugin/spinupwp": "*",
-        "wpackagist-plugin/limit-login-attempts-reloaded": "*"
+        "wpackagist-plugin/limit-login-attempts-reloaded": "*",
+        "wpackagist-plugin/amazon-s3-and-cloudfront": "^2.3"
     },
     "config": {
         "vendor-dir": "wp-content/vendor"
