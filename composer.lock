@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cafe7c9e908eeb11b73847eae790a157",
+    "content-hash": "8c90075bc2d8717911ee6a7abdc1ae61",
     "packages": [
         {
             "name": "composer/installers",
@@ -470,6 +470,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
+        },
+        {
+            "name": "wpackagist-plugin/better-wp-security",
+            "version": "7.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-wp-security/",
+                "reference": "tags/7.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-wp-security.7.6.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-wp-security/"
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",

@@ -12,7 +12,8 @@
         "wecodemore/wpstarter": "~2.0",
         "wpackagist-plugin/spinupwp": "*",
         "wpackagist-plugin/limit-login-attempts-reloaded": "*",
-        "wpackagist-plugin/amazon-s3-and-cloudfront": "^2.3"
+        "wpackagist-plugin/amazon-s3-and-cloudfront": "^2.3",
+        "wpackagist-plugin/better-wp-security": "^7.6"
     },
     "config": {
         "vendor-dir": "wp-content/vendor"
